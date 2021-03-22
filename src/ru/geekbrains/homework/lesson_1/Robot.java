@@ -1,12 +1,12 @@
 package ru.geekbrains.homework.lesson_1;
 
-public class Cat implements Champions {
+public class Robot implements Champions {
     private String name;
     private int maxRunDistance;
     private int maxJumpDistance;
     private boolean onDistance;
 
-    public Cat(String name, int maxRunDistance, int maxJumpDistance) {
+    public Robot(String name, int maxRunDistance, int maxJumpDistance) {
         this.name = name;
         this.maxRunDistance = maxRunDistance;
         this.maxJumpDistance = maxJumpDistance;
